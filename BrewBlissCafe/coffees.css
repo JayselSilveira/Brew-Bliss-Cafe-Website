@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+    font-weight: 300;
+}
+
+section {
+    padding: 5.5%;
+    box-sizing: border-box;
+}
+
+.row {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-text {
+    font-size: 2em;
+    color: #fff;
+    font-weight: 300;
+    position: relative;
+    padding-left: 10px;
+}
+
+.title-text span {
+    color: #FFD7A0;
+    font-weight: 700;
+    font-size: 1.5em;
+    text-shadow: 0 0 3px #FFD7A0, 0 0 5px #60371E;
+}
+
+.title-text::after {
+    position: absolute;
+    content: "";
+    width: 72px;
+    height: 1px;
+    top: 50%;
+    left: 0;
+}
+
+.home {
+    position: relative;
+    width: 1518px;
+    min-height: 130vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background: url(Images/bg3.jpg);*/
+    background-size: cover;
+}
+
+.home .content {
+    max-width: 900px;
+    text-align: center;
+}
+  
+.home .content h2 {
+    font-size: 5rem;
+    color: #FFD7A0;
+    text-shadow: 0 0 3px #FFD7A0, 0 0 5px #60371E;
+}
+
+.home .content h3 {
+    font-size: 2rem;
+    color: #211813;
+    text-shadow: 0 0 3px #FFD7A0, 0 0 5px #60371E;
+}
+
+.home .content h2 span {
+    color: #60371E;
+}
+  
+.home .content p {
+    font-size: 1.5rem;
+    color: #FFD7A0;
+    font-weight: 500;
+    text-shadow: 0 0 3px #FFD7A0, 0 0 5px #60371E;
+}
+
+.btn {
+    font-size: 1rem;
+    color: #FFD7A0;
+    background: #60371E;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    text-decoration: none;
+}
+
+.btn:hover {
+    letter-spacing: 6px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    padding: 40px 100px;
+    padding-right: 100px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: #FFD7A0;
+}
+
+header .logo {
+    color: #60371E;
+    font-weight: 700;
+    font-size: 2.5em;
+    text-decoration: none;
+}
+
+header .logo span {
+    color: #fff;
+}
+
+header .navigation {
+    display: flex;
+    position: relative;
+}
+
+header .navigation li {
+    list-style: none;
+    margin-left: 30px;
+    position: relative;
+}
+
+header .navigation li a {
+    color: #60371E;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+header .navigation li a::after {
+    position: absolute;
+    content: "";
+    bottom: -10px;
+    left: 0;
+    height: 2px;
+    width: 0%;
+    background-color: #60371E;
+    transition: 0.5s ease-in;
+}
+  
+header .navigation li a:hover::after {
+    width: 100%;
+    transition: 0.3s ease-in;
+    -webkit-transition: 0.3s ease-in;
+    -moz-transition: 0.3s ease-in;
+    -ms-transition: 0.3s ease-in;
+    -o-transition: 0.3s ease-in;
+}
+
+.sticky {
+    position: sticky;
+    background-color: #fff;
+    padding: 10px 100px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.5s linear ease-in;
+    -webkit-transition: 0.5s linear ease-in;
+    -moz-transition: 0.5s linear ease-in;
+    -ms-transition: 0.5s linear ease-in;
+    -o-transition: 0.5s linear ease-in;
+}
+
+.sticky .navigation li {
+    position: relative;
+}
+
+.sticky .navigation li a {
+    color: #60371E;
+}
+
+.sticky .navigation li a::after {
+    height: 2px;
+    width: 0%;
+    bottom: -10px;
+    left: 0;
+    transition: 0.5s ease-in;
+    -webkit-transition: 0.5s ease-in;
+    -moz-transition: 0.5s ease-in;
+    -ms-transition: 0.5s ease-in;
+    -o-transition: 0.5s ease-in;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title h3 {
+    font-size: 1.5em;
+    color: #000;
+    letter-spacing: 1px;
+    line-height: 36px;
+    font-weight: 700;
+}

@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+
+h2{
+    text-align: center;
+    font-size: 2.5rem;
+    color: #60371E;
+    font-weight: 600;
+    position: relative;
+    padding-left: 15px;
+}
+
+hr{
+    background-color: #60371E;
+    height: 5px;
+}
+
+.card{
+    background-color: #FFD7A0;
+    opacity: 0.9;
+    height: 95%;
+    width: 520px;
+    border: 10px solid #60371E;
+    border-radius: 15px;
+}
+
+form{
+    text-align: center;
+}
+
+form div p{
+    color: #000;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+input[type="text"], input[type="tel"]{
+    width: 250px;
+    height: 35px;
+}
+
+input[type="text"], input[type="file"], textarea, input[type="tel"]{
+    outline: none;
+    padding-left: 15px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    border-bottom-width: 2px;
+    font-size: 17px;
+    transition: all 0.3s ease;
+}
+
+input[type="text"]:focus, input[type="file"]:focus, textarea:focus, input[type="tel"]:focus{
+    border-color: #60371E;
+}
+
+input[type="text"]::placeholder, input[type="file"]::placeholder, textarea::placeholder, input[type="tel"]::placeholder{
+    color: #999;
+    transition: all 0.3s ease;
+}
+
+input[type="text"]:focus::placeholder, input[type="file"]:focus::placeholder, textarea:focus::placeholder, input[type="tel"]:focus::placeholder{
+    color: #b3b3b3;
+}
+
+.btn input{
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #FFD7A0;
+    background: #60371E;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    text-decoration: none;
+}
+
+.btn input:hover {
+    letter-spacing: 6px;
+}
