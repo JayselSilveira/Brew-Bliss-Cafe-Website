@@ -2,6 +2,8 @@
 
 NOTE: For QR code feature to work, download phpqrcode folder and add in BrewBlissCafe folder.
 
+This project integrates HTML, CSS, JavaScript, PHP, and MySQL.
+
 In the vibrant intersection of technology and culinary delight, the Café Management System 
 titled “Brew Bliss Café website” emerges as a digital haven for Brew Bliss Café – a place 
 where the aroma of freshly brewed coffee meets the seamless flow of online engagement. 
@@ -13,10 +15,8 @@ seamlessly, and delve into the Café's unique offerings. For administrators, a r
 empowers them to manage users, curate the menu, and glean insights from customer order 
 history. 
 
-This project integrates HTML, CSS, JavaScript, PHP, and MySQL.
+Users of the Website: 
 
-Users of the Website
-There can be 2 users of the website: 
 # 1. Customers: 
 User Functionalities: 
 ## Register/Login: 
@@ -41,7 +41,7 @@ each order.
  - The "Buy Now" page displays the total amount payable and a QR code. 
  - Upon scanning the QR code and clicking the "Place Order" button, the customer 
 completes the order process, confirming the purchase. 
-# Admin Section: 
+# 2. Admin: 
 User Functionalities: 
 ## Login: 
  - Administrators can log in securely to access the administrative functionalities. 
